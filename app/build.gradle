@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "com.android.reverse"
+        minSdkVersion 8
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    provided 'de.robv.android.xposed:api:82'
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.google.guava:guava:17.0'
+    compile files('libs/antlr-3.5.2-complete.jar')
+    compile files('libs/commons-cli-1.2.jar')
+}
