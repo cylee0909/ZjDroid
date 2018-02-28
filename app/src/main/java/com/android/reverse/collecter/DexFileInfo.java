@@ -3,17 +3,17 @@ package com.android.reverse.collecter;
 public class DexFileInfo {
 	
 	private String dexPath;
-	private int mCookie;
+	private Object mCookie;
 	private ClassLoader defineClassLoader;
 
 	
-	public DexFileInfo(String dexPath,int mCookie) {
+	public DexFileInfo(String dexPath,Object mCookie) {
 		super();
 		this.dexPath = dexPath;
 		this.mCookie = mCookie;
 	}
 	
-	public DexFileInfo(String dexPath,int mCookie,ClassLoader classLoader) {
+	public DexFileInfo(String dexPath,Object mCookie,ClassLoader classLoader) {
 		this(dexPath,mCookie);
 		this.defineClassLoader = classLoader;
 	}
@@ -22,11 +22,11 @@ public class DexFileInfo {
 		return dexPath;
 	}
 
-	public int getmCookie() {
+	public Object getmCookie() {
 		return mCookie;
 	}
 
-	public void setmCookie(int mCookie) {
+	public void setmCookie(Object mCookie) {
 		this.mCookie = mCookie;
 	}
 

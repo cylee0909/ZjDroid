@@ -35,20 +35,22 @@ public class NativeFunction implements MemoryReader {
 		return buffer;
 	}
 	
-	public static MemoryDexFileItemPointer queryDexFileItemPointer(int cookie){
-		int version = ModuleContext.getInstance().getApiLevel();
-		DexFileHeadersPointer iteminfo = getHeaderItemPtr(cookie,version);
-		MemoryDexFileItemPointer pointer = new MemoryDexFileItemPointer();
-		pointer.setBaseAddr(iteminfo.getBaseAddr());
-		pointer.setpClassDefs(iteminfo.getpClassDefs());
-		pointer.setpFieldIds(iteminfo.getpFieldIds());
-		pointer.setpMethodIds(iteminfo.getpMethodIds());
-		pointer.setpProtoIds(iteminfo.getpProtoIds());
-		pointer.setpStringIds(iteminfo.getpStringIds());
-		pointer.setpTypeIds(iteminfo.getpTypeIds());
-        pointer.setClassCount(iteminfo.getClassCount());
-		return pointer;
-
+	public static MemoryDexFileItemPointer queryDexFileItemPointer(Object cookie){
+		if (cookie instanceof Integer) { // TODO cylee mCookie not Integer
+			int version = ModuleContext.getInstance().getApiLevel();
+			DexFileHeadersPointer iteminfo = getHeaderItemPtr((Integer) cookie,version);
+			MemoryDexFileItemPointer pointer = new MemoryDexFileItemPointer();
+			pointer.setBaseAddr(iteminfo.getBaseAddr());
+			pointer.setpClassDefs(iteminfo.getpClassDefs());
+			pointer.setpFieldIds(iteminfo.getpFieldIds());
+			pointer.setpMethodIds(iteminfo.getpMethodIds());
+			pointer.setpProtoIds(iteminfo.getpProtoIds());
+			pointer.setpStringIds(iteminfo.getpStringIds());
+			pointer.setpTypeIds(iteminfo.getpTypeIds());
+			pointer.setClassCount(iteminfo.getClassCount());
+			return pointer;
+		}
+		return null;
 	}
 
 }

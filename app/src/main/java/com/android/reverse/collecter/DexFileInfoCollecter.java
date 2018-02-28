@@ -57,15 +57,19 @@ public class DexFileInfoCollecter{
 			public void afterHookedMethod(HookParam param) {
 				// TODO Auto-generated method stub
 				String dexPath = (String) param.args[0];
-				int mCookie = (Integer) param.getResult();
-				if (mCookie != 0) {
+				Object mCookie = param.getResult();
+				if (mCookie != null) {
 					dynLoadedDexInfo.put(dexPath, new DexFileInfo(dexPath,mCookie));
 				}
 			}
 		});
 		
 		Method defineClassNativeMethod = RefInvoke.findMethodExact("dalvik.system.DexFile", ClassLoader.getSystemClassLoader(), "defineClassNative",
-				String.class, ClassLoader.class,int.class);
+				String.class, ClassLoader.class,Object.class);
+		if (defineClassNativeMethod == null) {
+			defineClassNativeMethod = RefInvoke.findMethodExact("dalvik.system.DexFile", ClassLoader.getSystemClassLoader(), "defineClassNative",
+					String.class, ClassLoader.class,int.class);
+		}
 		hookhelper.hookMethod(defineClassNativeMethod, new MethodHookCallBack() {
 
 			@Override
@@ -78,7 +82,7 @@ public class DexFileInfoCollecter{
 			public void afterHookedMethod(HookParam param) {
 				// TODO Auto-generated method stub
                if(!param.hasThrowable()){
-            	   int mCookie = (Integer) param.args[2];
+				   Object mCookie = param.args[2];
             	   setDefineClassLoader(mCookie,(ClassLoader) param.args[1]);
                }
 			}
@@ -95,8 +99,7 @@ public class DexFileInfoCollecter{
 			}
 
 			@Override
-			public void afterHookedMethod(HookParam param) {
-				Logger.log((String) param.args[0]);
+			public void afterHookedMethod(HookParam param) {Logger.log((String) param.args[0]);
 				if (DVMLIB_LIB.equals(param.args[0]) && param.getResult() == null) {
 					param.setResult("/data/data/com.android.reverse/lib/libdvmnative.so");
 				}
@@ -112,7 +115,7 @@ public class DexFileInfoCollecter{
 		for (int i = 0; i < dexElements.length; i++) {
 			dexFile = (DexFile) RefInvoke.getFieldOjbect("dalvik.system.DexPathList$Element", dexElements[i], "dexFile");
 			String mFileName = (String) RefInvoke.getFieldOjbect("dalvik.system.DexFile", dexFile, "mFileName");
-			int mCookie = RefInvoke.getFieldInt("dalvik.system.DexFile", dexFile, "mCookie");
+			Object mCookie = RefInvoke.getFieldOjbect("dalvik.system.DexFile", dexFile, "mCookie");
 			DexFileInfo dexinfo = new DexFileInfo(mFileName, mCookie, pathClassLoader);
 			dexs.put(mFileName, dexinfo);
 		}
@@ -120,9 +123,9 @@ public class DexFileInfoCollecter{
 	}
 
 	public String[] dumpLoadableClass(String dexPath) {
-		int mCookie = this.getCookie(dexPath);
-		if (mCookie != 0) {
-			return (String[]) RefInvoke.invokeStaticMethod("dalvik.system.DexFile", "getClassNameList", new Class[] { int.class },
+		Object mCookie = this.getCookie(dexPath);
+		if (mCookie != null) {
+			return (String[]) RefInvoke.invokeStaticMethod("dalvik.system.DexFile", "getClassNameList", new Class[] { Object.class },
 					new Object[] { mCookie });
 		} else {
 			Logger.log("the cookie is not right");
@@ -136,8 +139,8 @@ public class DexFileInfoCollecter{
 		try {
 			if (!file.exists())
 				file.createNewFile();
-			int mCookie = this.getCookie(dexPath);
-			if (mCookie != 0) {
+			Object mCookie = this.getCookie(dexPath);
+			if (mCookie != null) {
 				MemoryBackSmali.disassembleDexFile(mCookie, filename);
 			} else {
 				Logger.log("the cookie is not right");
@@ -156,10 +159,10 @@ public class DexFileInfoCollecter{
 		try {
 			if (!file.exists())
 				file.createNewFile();
-			int mCookie = this.getCookie(dexPath);
-			if (mCookie != 0) {
+			Object mCookie = this.getCookie(dexPath);
+			if (mCookie != null && mCookie instanceof Integer) { // TODO cylee mCookie not Integer
 				FileOutputStream out = new FileOutputStream(file);
-				ByteBuffer data = NativeFunction.dumpDexFileByCookie(mCookie, ModuleContext.getInstance().getApiLevel());
+				ByteBuffer data = NativeFunction.dumpDexFileByCookie((Integer) mCookie, ModuleContext.getInstance().getApiLevel());
 				data.order(ByteOrder.LITTLE_ENDIAN);
 				byte[] buffer = new byte[8192];
 				data.clear();
@@ -185,7 +188,7 @@ public class DexFileInfoCollecter{
 		}
 	}
 
-	private int getCookie(String dexPath) {
+	private Object getCookie(String dexPath) {
 
 		if (dynLoadedDexInfo.containsKey(dexPath)) {
 			DexFileInfo dexFileInfo = dynLoadedDexInfo.get(dexPath);
@@ -198,7 +201,7 @@ public class DexFileInfoCollecter{
 				dexFile = (DexFile) RefInvoke.getFieldOjbect("dalvik.system.DexPathList$Element", dexElements[i], "dexFile");
 				String mFileName = (String) RefInvoke.getFieldOjbect("dalvik.system.DexFile", dexFile, "mFileName");
 				if (mFileName.equals(dexPath)) {
-					return RefInvoke.getFieldInt("dalvik.system.DexFile", dexFile, "mCookie");
+					return RefInvoke.getFieldOjbect("dalvik.system.DexFile", dexFile, "mCookie");
 				}
 
 			}
@@ -207,7 +210,7 @@ public class DexFileInfoCollecter{
 
 	}
 	
-	private void setDefineClassLoader(int mCookie, ClassLoader classLoader){
+	private void setDefineClassLoader(Object mCookie, ClassLoader classLoader){
 		Iterator<DexFileInfo> dexinfos = dynLoadedDexInfo.values().iterator();
 		DexFileInfo info = null;
 		while(dexinfos.hasNext()){

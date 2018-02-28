@@ -10,703 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e6f412f-f929-435e-a161-c9a03b7ec729" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/de_robv_android_xposed_api_82_jar.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/xposed_init" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-sw720dp-land/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/AbstractBahaviorHookCallBack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/AccountManagerHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/ActivityManagerHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/ActivityThreadHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/AlarmManagerHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/ApiMonitorHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/ApiMonitorHookManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/AudioRecordHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/CameraHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/ConnectivityManagerHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/ContentResolverHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/ContextImplHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/MediaRecorderHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/NetWorkHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/NotificationManagerHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/PackageManagerHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/ProcessBuilderHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/RuntimeHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/SmsManagerHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/apimonitor/TelephonyManagerHook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/client/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/collecter/DexFileInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/collecter/DexFileInfoCollecter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/collecter/HeapDump.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/collecter/LuaScriptInvoker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/collecter/MemDump.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/collecter/ModuleContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/collecter/NativeHookCollecter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/hook/HookHelperFacktory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/hook/HookHelperInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/hook/HookParam.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/hook/MethodHookCallBack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/hook/XposeHookHelperImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/mod/CommandBroadcastReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/mod/PackageMetaInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/mod/ReverseXposedModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/BackSmaliCommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/CommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/CommandHandlerParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/DumpClassCommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/DumpDexFileCommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/DumpDexInfoCommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/DumpHeapCommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/DumpMemCommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/InvokeScriptCommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/request/NativeHookInfoHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/smali/DexFileBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/smali/DexFileHeadersPointer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/smali/MemoryBackSmali.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/util/Constant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/util/JsonWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/util/Logger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/util/NativeFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/util/RefInvoke.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/android/reverse/util/Utility.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ds/tree/DuplicateKeyException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ds/tree/RadixTree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ds/tree/RadixTreeImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ds/tree/RadixTreeNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ds/tree/Visitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ds/tree/VisitorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/CheckForNull.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/CheckForSigned.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/CheckReturnValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/Detainted.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/MatchesPattern.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/Nonnegative.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/Nonnull.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/Nullable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/OverridingMethodsMustInvokeSuper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/ParametersAreNonnullByDefault.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/ParametersAreNullableByDefault.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/PropertyKey.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/RegEx.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/Signed.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/Syntax.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/Tainted.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/Untainted.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/WillClose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/WillCloseWhenClosed.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/WillNotClose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/concurrent/GuardedBy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/concurrent/Immutable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/concurrent/NotThreadSafe.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/concurrent/ThreadSafe.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/meta/Exclusive.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/meta/Exhaustive.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/meta/TypeQualifier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/meta/TypeQualifierDefault.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/meta/TypeQualifierNickname.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/meta/TypeQualifierValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/javax/annotation/meta/When.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/AnnotationFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/BlankMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/CatchMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/ClassDefinition.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/CommentMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/CommentedOutMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/CommentingIndentingWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/BeginEpilogueMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/DebugMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/EndLocalMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/EndPrologueMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/LineNumberMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/LocalFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/RestartLocalMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/SetSourceFileMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Debug/StartLocalMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/EncodedValue/AnnotationEncodedValueAdaptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/EncodedValue/ArrayEncodedValueAdaptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/EncodedValue/EncodedValueAdaptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/EndTryLabelMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/FieldDefinition.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Format/ArrayDataMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Format/InstructionMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Format/InstructionMethodItemFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Format/OffsetInstructionFormatMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Format/PackedSwitchMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Format/SparseSwitchMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/Format/UnresolvedOdexInstructionMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/LabelMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/MethodDefinition.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/MethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/PostInstructionRegisterInfoMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/PreInstructionRegisterInfoMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/ReferenceFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/RegisterFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Adaptors/SyntheticAccessCommentMethodItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Renderers/BooleanRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Renderers/ByteRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Renderers/CharRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Renderers/DoubleRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Renderers/FloatRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Renderers/IntegerRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Renderers/LongRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/Renderers/ShortRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/baksmali.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/baksmaliOptions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/dump.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/baksmali/main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/AccessFlags.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/AnnotationVisibility.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/DebugItemType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/DexFileFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/Format.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/Opcode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/Opcodes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/ReferenceType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/ValueType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/VerificationError.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/AnalysisException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/AnalyzedInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/ArrayProto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/ClassPath.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/ClassProto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/CustomInlineMethodResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/DumpFields.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/DumpVtables.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/InlineMethodResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/MethodAnalyzer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/OdexedFieldInstructionMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/PrimitiveProto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/RegisterType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/TypeProto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/UnknownClassProto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/UnresolvedClassException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/UnresolvedOdexInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/reflection/ReflectionClassDef.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/reflection/ReflectionConstructor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/reflection/ReflectionField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/reflection/ReflectionMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/reflection/util/ReflectionUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/analysis/util/TypeProtoUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/BaseAnnotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/BaseAnnotationElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/BaseExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/BaseMethodParameter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/BaseTryBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/reference/BaseFieldReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/reference/BaseMethodReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/reference/BaseStringReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/reference/BaseTypeReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseAnnotationEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseArrayEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseBooleanEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseByteEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseCharEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseDoubleEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseEnumEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseFieldEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseFloatEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseIntEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseLongEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseMethodEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseNullEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseShortEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseStringEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/base/value/BaseTypeEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/BuilderDebugItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/BuilderExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/BuilderInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/BuilderOffsetInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/BuilderSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/BuilderTryBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/Label.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/MethodImplementationBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/MethodLocation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/MutableMethodImplementation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/SwitchLabelElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/debug/BuilderEndLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/debug/BuilderEpilogueBegin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/debug/BuilderLineNumber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/debug/BuilderPrologueEnd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/debug/BuilderRestartLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/debug/BuilderSetSourceFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/debug/BuilderStartLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderArrayPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction10t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction10x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction11n.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction11x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction12x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction20bc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction20t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction21c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction21ih.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction21lh.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction21s.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction21t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction22b.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction22c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction22s.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction22t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction22x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction23x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction30t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction31c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction31i.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction31t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction32x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction35c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction3rc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderInstruction51l.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderPackedSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderSparseSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/builder/instruction/BuilderSwitchElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/BaseDexBuffer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/BaseDexReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedAnnotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedAnnotationElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedCatchAllExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedClassDef.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedDexFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedMethodImplementation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedOdexFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedTryBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexBackedTypedExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/DexReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/MemoryDexFileItemPointer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/MemoryReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedArrayPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction10t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction10x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction11n.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction11x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction12x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction20bc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction20t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction21c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction21ih.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction21lh.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction21s.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction21t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction22b.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction22c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction22cs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction22s.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction22t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction22x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction23x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction30t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction31c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction31i.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction31t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction32x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction35c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction35mi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction35ms.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction3rc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction3rmi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction3rms.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedInstruction51l.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedPackedSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedSparseSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/instruction/DexBackedUnknownInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/AnnotationDirectoryItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/AnnotationItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/AnnotationSetItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/AnnotationSetRefList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/ClassDataItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/ClassDefItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/CodeItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/DebugInfoItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/EncodedArrayItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/EncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/FieldIdItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/HeaderItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/ItemType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/MapItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/MethodIdItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/OdexHeaderItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/ProtoIdItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/RawDexFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/SectionAnnotator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/StringDataItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/StringIdItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/TypeIdItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/TypeListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/raw/util/DexAnnotator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/reference/DexBackedFieldReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/reference/DexBackedMethodReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/reference/DexBackedReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/reference/DexBackedStringReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/reference/DexBackedTypeReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/AnnotationsDirectory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/DebugInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/FixedSizeList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/FixedSizeSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/ParameterIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/StaticInitialValueIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/VariableSizeCollection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/VariableSizeIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/VariableSizeList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/VariableSizeListIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/VariableSizeLookaheadIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/util/VariableSizeSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/value/DexBackedAnnotationEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/value/DexBackedArrayEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/value/DexBackedEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/value/DexBackedEnumEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/value/DexBackedFieldEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/value/DexBackedMethodEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/value/DexBackedStringEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/dexbacked/value/DexBackedTypeEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/Annotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/AnnotationElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/BasicAnnotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/ClassDef.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/DexFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/ExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/Field.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/Method.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/MethodImplementation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/MethodParameter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/TryBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/DebugItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/EndLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/EpilogueBegin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/LineNumber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/LocalInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/PrologueEnd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/RestartLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/SetSourceFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/debug/StartLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/FieldOffsetInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/FiveRegisterInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/HatLiteralInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/InlineIndexInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/Instruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/LongHatLiteralInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/NarrowHatLiteralInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/NarrowLiteralInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/OffsetInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/OneRegisterInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/PayloadInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/ReferenceInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/RegisterRangeInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/SwitchElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/SwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/ThreeRegisterInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/TwoRegisterInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/VariableRegisterInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/VerificationErrorInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/VtableIndexInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/WideLiteralInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/ArrayPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction10t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction10x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction11n.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction11x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction12x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction20bc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction20t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction21c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction21ih.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction21lh.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction21s.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction21t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction22b.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction22c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction22cs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction22s.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction22t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction22x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction23x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction30t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction31c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction31i.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction31t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction32x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction35c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction35mi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction35ms.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction3rc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction3rmi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction3rms.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/Instruction51l.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/PackedSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/SparseSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/instruction/formats/UnknownInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/reference/FieldReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/reference/MethodReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/reference/Reference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/reference/StringReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/reference/TypeReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/AnnotationEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/ArrayEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/BooleanEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/ByteEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/CharEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/DoubleEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/EncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/EnumEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/FieldEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/FloatEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/IntEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/LongEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/MethodEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/NullEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/ShortEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/StringEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/iface/value/TypeEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableAnnotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableAnnotationElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableClassDef.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableDexFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableMethodImplementation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableMethodParameter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/ImmutableTryBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/debug/ImmutableDebugItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/debug/ImmutableEndLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/debug/ImmutableEpilogueBegin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/debug/ImmutableLineNumber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/debug/ImmutablePrologueEnd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/debug/ImmutableRestartLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/debug/ImmutableSetSourceFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/debug/ImmutableStartLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableArrayPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction10t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction10x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction11n.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction11x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction12x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction20bc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction20t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction21c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction21ih.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction21lh.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction21s.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction21t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction22b.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction22c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction22cs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction22s.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction22t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction22x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction23x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction30t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction31c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction31i.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction31t.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction32x.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction35c.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction35mi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction35ms.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction3rc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction3rmi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction3rms.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstruction51l.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableInstructionFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutablePackedSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableSparseSwitchPayload.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableSwitchElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/instruction/ImmutableUnknownInstruction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/reference/ImmutableFieldReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/reference/ImmutableMethodReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/reference/ImmutableReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/reference/ImmutableReferenceFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/reference/ImmutableStringReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/reference/ImmutableTypeReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/util/CharSequenceConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/util/ParamUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableAnnotationEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableArrayEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableBooleanEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableByteEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableCharEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableDoubleEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableEncodedValueFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableEnumEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableFieldEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableFloatEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableIntEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableLongEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableMethodEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableNullEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableShortEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableStringEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/immutable/value/ImmutableTypeEncodedValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/AnnotationElementRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/AnnotationRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/ClassDefRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/DebugItemRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/DexRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/EncodedValueRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/ExceptionHandlerRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/FieldReferenceRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/FieldRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/InstructionRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/MethodImplementationRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/MethodParameterRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/MethodReferenceRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/MethodRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/Rewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/RewriterModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/RewriterUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/Rewriters.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/TryBlockRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/rewriter/TypeRewriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/AnnotatedBytes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/EncodedValueUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/FieldUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/InstructionOffsetMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/InstructionUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/MethodUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/Preconditions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/ReferenceUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/SyntheticAccessorFSM.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/SyntheticAccessorResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/util/TypeUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/AnnotationSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/AnnotationSetSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/ClassSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/DebugWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/DexDataWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/DexWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/EncodedValueWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/FieldSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/IndexSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/InstructionFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/InstructionWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/MethodSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/NullableIndexSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/NullableOffsetSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/OffsetSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/ProtoSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/StringSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/TypeListSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/TypeSection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderAnnotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderAnnotationElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderAnnotationPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderAnnotationSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderAnnotationSetPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderClassDef.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderClassPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderEncodedValues.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderFieldPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderFieldReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderMapEntryCollection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderMethodParameter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderMethodPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderMethodReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderProtoPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderProtoReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderStringPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderStringReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderTryBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderTypeList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderTypeListPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderTypePool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/BuilderTypeReference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/builder/DexBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/io/DeferredOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/io/DeferredOutputStreamFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/io/DexDataStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/io/FileDataStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/io/FileDeferredOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/io/MemoryDataStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/io/MemoryDeferredOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/AnnotationPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/AnnotationSetPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/BaseIndexPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/BaseNullableOffsetPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/BaseOffsetPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/ClassPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/DexPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/FieldPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/MethodPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/PoolClassDef.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/PoolMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/ProtoPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/StringPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/StringTypeBasePool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/TypeListPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/pool/TypePool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/dexlib2/writer/util/TryListBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/InvalidToken.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/LexerErrorInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/LiteralTools.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/OdexedInstructionException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/SemanticException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/SmaliMethodParameter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/WithRegister.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/smaliFlexLexer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/smaliParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/smali/smaliTreeWalker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/AbstractForwardSequentialList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/AbstractListIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/AlignmentUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/ArraySortedSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/BitSetUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/CharSequenceUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/ClassFileNameHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/CollectionUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/ConsoleUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/ExceptionWithContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/Hex.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/ImmutableConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/ImmutableUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/IndentingWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/LinearSearch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/NakedByteArrayOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/NibbleUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/NumberUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/PathUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/RandomAccessFileInputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/RandomAccessFileOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/SmaliHelpFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/SparseArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/SparseIntArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/StringUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/StringWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/TwoColumnOutput.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/Utf8Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/jf/util/WrappedIndentingWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/CPtr.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/Console.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/JavaFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/LuaException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/LuaInvocationHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/LuaJavaAPI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/LuaObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/LuaState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/keplerproject/luajava/LuaStateFactory.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jni/Android.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jni/Application.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jni/dvmnative.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jni/elfinfo.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jni/elfinfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jni/util.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfoCollecter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfoCollecter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/android/reverse/smali/MemoryBackSmali.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/reverse/smali/MemoryBackSmali.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/NativeFunction.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/NativeFunction.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -734,23 +48,31 @@
       <file leaf-file-name="RefInvoke.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/RefInvoke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DexFileInfoCollecter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DexFileInfoCollecter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfoCollecter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="116" column="41" lean-forward="true" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+            <state relative-caret-position="1394">
+              <caret line="101" column="60" lean-forward="false" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#912#933#0" expanded="true" />
-                <element signature="e#3530#3551#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DexBackedDexFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/dexbacked/DexBackedDexFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -758,71 +80,70 @@
       <file leaf-file-name="CommandBroadcastReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/mod/CommandBroadcastReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DexFileInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/ModuleContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="544">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="e#3009#3010#0" expanded="true" />
-                <element signature="e#3053#3054#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseXposedModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/mod/ReverseXposedModule.java">
+      <file leaf-file-name="CommandHandlerParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/CommandHandlerParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="476">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PackageMetaInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/mod/PackageMetaInfo.java">
+      <file leaf-file-name="MemoryBackSmali.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/smali/MemoryBackSmali.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NativeFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/NativeFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dvmnative.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/dvmnative.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1751">
+              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Android.mk" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/Android.mk">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IXposedHookLoadPackage.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/IXposedHookLoadPackage.java">
+      <file leaf-file-name="Application.mk" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/Application.mk">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DexClassLoader.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Softs/Android/Sdk/platforms/android-18/android.jar!/dalvik/system/DexClassLoader.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -840,6 +161,9 @@
       <find>pathClassLoader</find>
       <find>FILESAVEPATH</find>
       <find>mCookie</find>
+      <find>readBytes</find>
+      <find>dvmnative</find>
+      <find>defineClassNative</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2581,6 +1905,10 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/app.iml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/Constant.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/reverse/smali/MemoryBackSmali.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/NativeFunction.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfoCollecter.java" />
       </list>
     </option>
   </component>
@@ -2605,7 +1933,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -2619,10 +1947,134 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="armeabi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jniLibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="armeabi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZjDroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2635,6 +2087,11 @@
     <property name="DEBUGGABLE_PROCESS" value="ai.zuoye.app" />
     <property name="SHOW_ALL_PROCESSES" value="true" />
     <property name="DEBUGGER_ID" value="Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sources\ZjDroid\app\src\main\jni" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2696,7 +2153,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519702846002" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519783874861" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2721,7 +2178,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519702846002" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519783874861" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2753,27 +2210,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2881,7 +2317,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519702846006" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519783874865" />
       </method>
     </configuration>
     <list size="1">
@@ -2923,74 +2359,99 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1088" y="-1088" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1088" y="-1088" width="1936" height="1096" extended-state="0" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5387931" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55818963" sideWeight="0.50427353" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36530173" sideWeight="0.4957265" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15384616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14224137" sideWeight="0.6351496" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946581" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5294118" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21659483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55818963" sideWeight="0.50427353" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5290948" sideWeight="0.4957265" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946581" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5549569" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46875" sideWeight="0.6351496" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5294118" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16346154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43534482" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16176471" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961948" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32189542" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5294118" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25570777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3382353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15170941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21659483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -3010,163 +2471,61 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfoCollecter.java</url>
-          <line>114</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/CommandHandlerParser.java</url>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/mod/CommandBroadcastReceiver.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/mod/CommandBroadcastReceiver.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/mod/CommandBroadcastReceiver.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfoCollecter.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/RefInvoke.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/smali/MemoryBackSmali.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Remote">
-        <watch expression="RefInvoke.getFieldOjbect(&quot;dalvik.system.DexFile&quot;, dexFile, &quot;mCookie&quot;)" language="JAVA" />
+        <watch expression="android.os.Process.myPid()" language="JAVA" />
+        <watch expression="((long[]) mCookie).getClass()" language="JAVA" />
+        <watch expression="(Integer)cookie[0]" language="JAVA" />
+        <watch expression="Integer.MAX_VALUE" language="JAVA" />
+        <watch expression="Integer.valueOf(2840359872)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="92" lean-forward="false" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/DumpClassCommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#278#279#0" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/CommandHandlerParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/DumpDexInfoCommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="93" lean-forward="false" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/dexbacked/MemoryReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/NativeFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/dexbacked/DexReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/dexbacked/BaseDexReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/dexbacked/BaseDexBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/dexbacked/DexBackedDexFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/dexbacked/DexBackedOdexFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="119" column="51" lean-forward="false" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/Opcodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/DexFileFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="57" column="46" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/apimonitor/RuntimeHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/apimonitor/ApiMonitorHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/XposedBridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="803" column="54" lean-forward="false" selection-start-line="803" selection-start-column="54" selection-end-line="803" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/hook/HookHelperFacktory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ds/tree/DuplicateKeyException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -3185,7 +2544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="102" column="12" lean-forward="false" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3200,7 +2558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3208,7 +2565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3237,7 +2593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3245,7 +2600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3253,7 +2607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3261,7 +2614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3269,7 +2621,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3280,20 +2631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#4058#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/smali/MemoryBackSmali.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3301,15 +2638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/BackSmaliCommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3317,7 +2645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3325,7 +2652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3333,7 +2659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3352,7 +2677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3360,50 +2684,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/reverse/collecter/DexFileInfoCollecter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/RefInvoke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/mod/CommandBroadcastReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/reverse/collecter/DexFileInfoCollecter.java" />
+    <entry file="file://$PROJECT_DIR$/import-summary.txt" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -3420,23 +2705,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/DumpDexInfoCommandHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Softs/Android/Sdk/platforms/android-18/android.jar!/android/content/Intent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="415" column="18" lean-forward="false" selection-start-line="415" selection-start-column="18" selection-end-line="415" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/BackSmaliCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/DumpClassCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Softs/Android/Sdk/platforms/android-18/android.jar!/android/os/Debug.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="273" column="23" lean-forward="false" selection-start-line="273" selection-start-column="23" selection-end-line="273" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/HeapDump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/DumpHeapCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/MemDump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/DumpMemCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/DumpDexFileCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.robv.android.xposed/api/82/2030f71764b06b2f39fa1a85660690aa834cfd84/api-82-sources.jar!/de/robv/android/xposed/XposedBridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="202" column="27" lean-forward="false" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/RefInvoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/jf/dexlib2/dexbacked/DexBackedDexFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/collecter/DexFileInfoCollecter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="116" column="41" lean-forward="true" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+        <state relative-caret-position="1394">
+          <caret line="101" column="60" lean-forward="false" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#912#933#0" expanded="true" />
-            <element signature="e#3530#3551#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/request/CommandHandlerParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/mod/CommandBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/dvmnative.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/Application.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/util/NativeFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/reverse/smali/MemoryBackSmali.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
